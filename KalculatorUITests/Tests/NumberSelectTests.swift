@@ -6,4 +6,21 @@
 //  Copyright © 2024 Jogendra Singh. All rights reserved.
 //
 
-import Foundation
+import XCTest
+
+class NumberSelectTests: XCTestCase {
+    
+    override func setUp() {
+        super.setUp()
+        continueAfterFailure = false
+        XCUIApplication().launch()
+    }
+    
+    override func tearDown() {
+        super.tearDown()
+    }
+    
+    func testSelectAllButtons() {
+        CalculatorPage().tapOne()
+    }
+}
