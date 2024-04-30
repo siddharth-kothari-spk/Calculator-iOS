@@ -23,6 +23,7 @@
 		B13C08EE2BE0DE2500A3CBE7 /* NumberSelectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13C08ED2BE0DE2500A3CBE7 /* NumberSelectTests.swift */; };
 		B13C08F02BE0DF9D00A3CBE7 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13C08EF2BE0DF9D00A3CBE7 /* BaseTest.swift */; };
 		B13C08F22BE0E2EA00A3CBE7 /* CalculatorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13C08F12BE0E2EA00A3CBE7 /* CalculatorPage.swift */; };
+		B13C08F42BE0FE2800A3CBE7 /* PerformanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13C08F32BE0FE2800A3CBE7 /* PerformanceUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B13C08ED2BE0DE2500A3CBE7 /* NumberSelectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSelectTests.swift; sourceTree = "<group>"; };
 		B13C08EF2BE0DF9D00A3CBE7 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
 		B13C08F12BE0E2EA00A3CBE7 /* CalculatorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPage.swift; sourceTree = "<group>"; };
+		B13C08F32BE0FE2800A3CBE7 /* PerformanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				B13C08ED2BE0DE2500A3CBE7 /* NumberSelectTests.swift */,
+				B13C08F32BE0FE2800A3CBE7 /* PerformanceUITests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13C08F42BE0FE2800A3CBE7 /* PerformanceUITests.swift in Sources */,
 				B13C08F02BE0DF9D00A3CBE7 /* BaseTest.swift in Sources */,
 				B13C08F22BE0E2EA00A3CBE7 /* CalculatorPage.swift in Sources */,
 				B13C08E42BE0DC4000A3CBE7 /* KalculatorUITestsLaunchTests.swift in Sources */,
