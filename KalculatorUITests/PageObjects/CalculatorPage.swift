@@ -54,4 +54,68 @@ public class CalculatorPage: BaseTest {
         fiveButton.tap()
         return self
     }
+    
+    // Using Accessibility Identifier
+    @discardableResult
+    func tapOneByAccessibility(completion: Completion = nil) -> Self {
+        log("tap the One Button by accessibility identifier")
+        app.buttons["One"].tap()
+        return self
+    }
+    
+    @discardableResult
+    func tapTwoByAccessibility(completion: Completion = nil) -> Self {
+        log("tap the Two Button by accessibility identifier")
+        app.buttons["Two"].tap()
+        return self
+    }
+    
+    @discardableResult
+    func tapThreeByAccessibility(completion: Completion = nil) -> Self {
+        log("tap the Three Button by accessibility identifier")
+        app.buttons["Three"].tap()
+        return self
+    }
+    
+    @discardableResult
+    func tapFourByAccessibility(completion: Completion = nil) -> Self {
+        log("tap the Four Button by accessibility identifier")
+        app.buttons["Four"].tap()
+        return self
+    }
+    
+    @discardableResult
+    func tapFiveByAccessibility(completion: Completion = nil) -> Self {
+        log("tap the Five Button by accessibility identifier")
+        app.buttons["Five"].tap()
+        return self
+    }
+    
+    @discardableResult
+    func tapSixByAccessibility(completion: Completion = nil) -> Self {
+        log("tap the Six Button by accessibility identifier")
+        app.buttons["Six"].tap()
+        return self
+    }
+    
+    @discardableResult
+    func tapSevenByAccessibility(completion: Completion = nil) -> Self {
+        log("tap the Seven Button by accessibility identifier")
+        app.buttons["Seven"].tap()
+        return self
+    }
+    
+    @discardableResult
+    func tapEightByAccessibility(completion: Completion = nil) -> Self {
+        log("tap the Eight Button by accessibility identifier")
+        app.buttons["Eight"].tap()
+        return self
+    }
+    
+    @discardableResult
+    func tapNineByAccessibility(completion: Completion = nil) -> Self {
+        log("tap the Nine Button by accessibility identifier")
+        app.buttons["Nine"].tap()
+        return self
+    }
 }

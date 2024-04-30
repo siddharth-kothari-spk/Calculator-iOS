@@ -28,4 +28,18 @@ class NumberSelectTests: XCTestCase {
             .tapFour()
             .tapFive()
     }
+    
+    func testButtonsByAccessibilityIdentifier() {
+        CalculatorPage()
+            .tapOneByAccessibility()
+            .tapTwoByAccessibility()
+            .tapThreeByAccessibility()
+            .tapFourByAccessibility()
+            .tapFiveByAccessibility()
+            .tapSixByAccessibility()
+            .tapSevenByAccessibility()
+            .tapEightByAccessibility()
+            .tapNineByAccessibility()
+        
+    }
 }
